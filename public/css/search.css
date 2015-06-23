@@ -1,0 +1,238 @@
+
+.circle {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+html, body, #map-canvas {
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+  top: -8px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.instructions { 
+  width: 100%;
+  text-align: center;
+}
+
+#pageHeader { 
+  height: 90px;
+}
+
+#pageHeader .user-profile { 
+  float: right;
+  padding: 10px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+#pageHeader .user-profile img { 
+  height: 50px;
+  margin-right: 5px;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.content .logo { 
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.content .glyphicon-send {
+  font-size: 50px;
+  top: 12px;
+}
+
+.content .logo .site-title { 
+  font-size: 50px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
+}
+
+.content .logo h1 { 
+}
+
+
+.content .logo .viewCount { 
+/*  margin-top: 49px;
+  margin-left: 1px;
+  font-weight: 100;
+  padding: 3px;*/
+}
+
+#panel {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  margin-left: -180px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+#pictures .row { 
+  width: 100%;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 5px 0px 5px 0px;
+}
+
+#pictures .picture-container { 
+  text-align: center;
+  width: 33%;
+}
+
+.picture-container .username-link 
+{
+  color: #555555;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 100;
+  padding: 6px 15px;
+  cursor: pointer;
+  text-decoration:none;
+  margin-top: 5px;
+}
+
+.picture-container .username-link:hover
+{
+  background:#155FB0;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.picture-container .star { 
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+
+}
+
+
+#pictures .instaImage { 
+  display: block;
+  position: relative;
+}
+
+#pictures .instaImage .header {
+  position: absolute;
+  /* left: 100px; */
+  width: 100%;
+  text-align: center;
+  font-size: 75px;
+  color: #FF5B5B;
+  font-weight: 100;
+  top: 25%;
+  display: none;
+  z-index: 50;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#pictures .instaImage .header .like-container { 
+  margin-bottom: -20px;
+}
+
+#pictures .instaImage .header .location-container { 
+  font-weight: 100;
+  font-size: 13px;
+  color: #606060;
+}
+
+.glyphicon-heart { 
+    top: 11px;
+}
+
+#pictures .instaImage a { 
+  outline: none;
+  color: inherit;
+}
+
+#pictures .instaImage .yelp-logo { 
+  width: 20px;
+  margin-right: 3px;
+}
+
+#pictures .instaImage a: hover { 
+  outline: none;
+  color: inherit;
+}
+
+#pictures .instaImage .image img { 
+  border: 2px solid #505050;
+  width: 90%;
+}
+
+.dropdown 
+{
+color: #555;
+margin: 3px -22px 0 0;
+width: 100px;
+position: relative;
+height: 17px;
+text-align:left;
+  z-index: 5;
+  top: 15px;
+  cursor: pointer;
+}
+#submenu
+{
+background: #fff;
+position: absolute;
+top: -12px;
+left: -20px;
+z-index: -1;
+width: 100px;
+display: none;
+margin-left: 10px;
+padding: 40px 0 5px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+#submenu ul {
+    padding: 0;
+  list-style-type: none;
+}
+.dropdown li a 
+{
+color: #555555;
+display: block;
+font-family: sans-serif;
+font-weight: 100;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+background:#155FB0;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.glyphicon-chevron-down { 
+    margin-left: 4px;
+  /* padding: 5px; */
+  font-size: 12px;
+}
+
+.instaImage.explore { 
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.instaImage .explore-more { 
+  margin-top: 40%;
+
+}

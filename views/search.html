@@ -1,0 +1,35 @@
+<html> 
+    <head> 
+    	<title>Paper Airplane Adventures</title>
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="/scripts/search.js"></script>
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="/css/search.css">
+		
+    </head> 
+    <body > 
+    	<div class="content">
+            <div id="pageHeader">
+    		<div class="logo">
+                <span class="glyphicon glyphicon-send"></span>
+    			<span class="site-title"> Paper Airplane Adventures </span>
+    			<span class="viewCount"> </span> 
+    		</div>
+        </div>
+    		<div id="panel">
+		      <input id="address" type="textbox" value="Los Angeles, CA">
+		      <input type="button" value="Search" onclick="codeAddress()">
+		    </div>
+    		<div id="map-canvas"></div>
+            <div class="instructions">
+                <span> Click anywhere on the map to start exploring! </span>
+            </div>
+    		<div id="pictures">
+    		</div>
+    	</div>
+    </body> 
+</html>
+
+<!-- https://api.instagram.com/v1/users/self?access_token=tokenval  -->
